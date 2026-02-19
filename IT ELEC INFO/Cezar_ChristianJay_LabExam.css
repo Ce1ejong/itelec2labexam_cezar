@@ -1,0 +1,77 @@
+ body {
+    background: #cf0000;
+    background: linear-gradient(90deg,rgba(207, 0, 0, 1) 0%, rgba(250, 110, 40, 1) 50%, rgba(181, 0, 0, 1) 100%);
+    color: white;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    margin-bottom: 25px;
+}
+
+p.description {
+    border-left: 5px solid #1f4037;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+}
+
+h3 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #1f4037;
+}
+
+ul li, ol li {
+    padding: 5px 0;
+}
+
+img.profile-img {
+    border-radius: 50%;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 5px;
+}
+
+table th {
+    background-color: maroon;
+    color: white;
+}
+
+table td, table th {
+    text-align: center;
+}
+
+.btn-custom {
+    background-color: #1f4037;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 20px;
+}
+
+.btn-custom:hover {
+    background-color: #16332c;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
